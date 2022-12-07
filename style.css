@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Merienda:wght@500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+    background-color: #FCE072;
+}
+
+#mainContainer{
+    display: flex;
+    margin-top: 1.5%;
+}
+
+#leftContainer{
+    margin-left: 15%;
+    width: 42%;
+}
+
+.display h3{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+#header{
+    background-color: #2B2A29;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+button{
+    margin: 5% 0% 5% 31%;
+    background-color: #2B2A29;
+    color: #FCE072;
+    font-family: 'Merienda', cursive;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.display{
+    background-color: white;
+    height: 31%;
+    width: 88%;
+    padding: 2%;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+textarea{
+    margin-top: 5%;
+    outline: none;
+    resize: none;
+    font-family: 'Merienda', cursive;
+    font-size: 0.93rem;
+}
+
+.heading{
+    color: #FCE072;
+}
+
+img{
+    width: 35%;
+    height: 35%;
+}
+
+#footer{
+    height: 7rem;
+    width: 100vw;
+    background-color: #2B2A29;
+    display: inline-block;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+#footer h3{
+    border-bottom: 2px solid #FCE072;
+    width: 5%;
+    margin-left: 48%;
+    margin-top: 0.5%;
+}
+
+p{
+    color: #FCE072;
+    margin-top: 1%;
+    margin-left: 25%;
+    max-width: 50rem;
+}
+
+
+
