@@ -4,4 +4,4 @@ Description : Are you a fan of minions? Did you know that the gibberish they say
 
 Tech Stack : HTML, CSS and JS
 
-Live project is [here](https://romabulani-minionlanguage.netlify.app/).
+Live project is [here](https://worldofminions.netlify.app/).
