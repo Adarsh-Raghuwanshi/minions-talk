@@ -13,21 +13,12 @@ body{
     width: 100vw;
 }
 
-#mainContainer{
-    display: flex;
-    height: 74.5%;
+.yellowClr{
+    color: #FCE072;
 }
 
-#leftContainer{
-    margin-left: 17%;
-    width: 42%;
-}
-
-.display h3{
-    border-bottom: 1px solid black;
-    text-align: center;
-    padding-bottom: 1%;
-    margin-bottom: 2%;
+.redClr{
+    color: rgb(190, 38, 38);
 }
 
 #header{
@@ -38,6 +29,49 @@ body{
     justify-content: center;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+}
+
+#mainContainer{
+    display: flex;
+    height: 74.5%;
+}
+
+#leftContainer{
+    margin-left: 17%;
+    width: 42%;
+}
+
+img{
+    position: relative;
+    width: 29.2%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 2%;
+    animation: bounceMinion 4s infinite;
+}
+
+@keyframes bounceMinion{
+    0%, 100%{
+        top: 0%;
+    }
+    50%{
+        top: -3%;
+    }
+}
+
+.display h3{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+textarea{
+    margin-top: 8%;
+    outline: none;
+    resize: none;
+    font-family: 'Merienda', cursive;
+    font-size: 0.93rem;
 }
 
 button{
@@ -76,35 +110,6 @@ button:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-textarea{
-    margin-top: 8%;
-    outline: none;
-    resize: none;
-    font-family: 'Merienda', cursive;
-    font-size: 0.93rem;
-}
-
-.heading{
-    color: #FCE072;
-}
-
-img{
-    position: relative;
-    width: 29.2%;
-    height: 90%;
-    margin-top: 3%;
-    margin-left: 2%;
-    animation: bounceMinion 4s infinite;
-}
-
-@keyframes bounceMinion{
-    0%, 100%{
-        top: 0%;
-    }
-    50%{
-        top: -3%;
-    }
-}
 
 #footer{
     height: 7rem;
